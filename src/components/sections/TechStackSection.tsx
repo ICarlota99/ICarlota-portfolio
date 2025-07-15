@@ -87,9 +87,9 @@ export default function SkillsSection() {
               key={category.title}
               className="group relative overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm transition-all hover:border-teal-400/50 hover:bg-slate-900"
             >
-              <h3 className="mb-6 text-xl font-bold text-slate-100 text-center">
+              <h4 className="mb-6 text-xl font-bold text-slate-100 text-center">
                 {category.title}
-              </h3>
+              </h4>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
                 {category.skills.map((skill) => (
                   <div
