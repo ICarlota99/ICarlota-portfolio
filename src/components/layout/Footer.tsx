@@ -89,7 +89,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-gray-200 text-center">
           <p className="text-gray-400 dark:text-gray-400 text-sm">
-            Made with love by © { new Date().getFullYear() } ICarlota. All rights reserved.
+            Made with love by <a href="https://icarlota99.github.io/ICarlota-portfolio/" className='text-white'>ICarlota99</a> © { new Date().getFullYear() } All rights reserved
           </p>
         </div>
       </div>
