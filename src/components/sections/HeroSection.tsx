@@ -47,14 +47,15 @@ export default function HeroSection() {
             className="max-w-4xl text-4xl sm:text-5xl md:text-7xl font-extrabold mb-4 tracking-tight leading-tight hover:cursor-default"
             colors={["#86EFAC", "#2DD4BF", "#3B82F6", "#86EFAC"]}
           >
-            <span className="block text-2xl md:text-4xl lg:text-5xl">Hey there — I'm Carlota</span>
-            <span className="block mt-10 font-bold">I Craft Beautiful & Reliable</span>
-            <span className="block font-bold">Web Experiences</span>
+            <span className="block text-2xl md:text-4xl lg:text-5xl">Hey there — Welcome to</span>
+            <h1 className="block text-6xl lg:text-8xl mt-10 font-bold">
+              Carlota's Coding <br />Corner
+            </h1>
           </GradientText>
 
           {/* Description */}
           <p className="my-6 max-w-xl text-base md:text-lg text-slate-300 leading-relaxed">
-            I'm a <strong className="font-semibold text-white">Junior Web Developer</strong> based in Havana City,
+            I'm <strong className="font-semibold text-white">Carlota,</strong>  a <strong className="font-semibold text-white">Junior Web Developer</strong> based in Havana City,
             blending clean code with bold ideas to create high-performance digital experiences that feel as good as they look.
           </p>
 
