@@ -32,7 +32,7 @@ export default function HeroSection() {
       {/* Animated background behind all content */}
       <motion.div
         style={{ backgroundImage }}
-        className="absolute inset-0 -z-50"
+        className="absolute inset-0 -z-50 h-240"
         aria-hidden
       />
 
