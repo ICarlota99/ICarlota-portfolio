@@ -78,19 +78,21 @@ export default function Navbar() {
             <a
               href="/#hero"
               onClick={ (e) => handleLinkClick(e, "/#hero") }
-              className="text-2xl font-bold bg-gradient-to-r from-teal-500 via-cyan-500 to-blue-600 bg-clip-text text-transparent"
+              className="text-2xl bg-gradient-to-r from-teal-500 via-cyan-500 to-blue-600 bg-clip-text text-transparent"
             >
-              {/* {"<Carlota />"} */}
-              {/* $ <span className="text-white">carlota_dev</span>
-              <span className="text-purple-400">(</span>
+              <span className="font-bold text-white">{"<"}</span>
+              <span className="font-black text-teal-300">Carlota's CC</span>
+              <span className="font-bold text-white">{"/>"}</span>
+              {/* <span>{">"}carlota.dev</span> */}
+              {/* <span className="text-purple-400">(</span>
               <span className="text-green-400">main</span>
               <span className="text-purple-400">) </span>
               <span className="text-yellow-200">λ carlota</span> */}
-              <span className="text-purple-400">{"{"}</span>
+              {/* <span className="text-purple-400">{"{"}</span>
               <span className="text-amber-300 mx-1">"dev"</span>
               <span className="text-gray-400">: </span>
               <span className="text-emerald-400">"Carlota"</span>
-              <span className="text-purple-400">{"}"}</span>
+              <span className="text-purple-400">{"}"}</span> */}
             </a>
           </div>
 
